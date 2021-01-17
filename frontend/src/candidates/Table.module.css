@@ -1,0 +1,26 @@
+.tableContainer {
+  overflow: scroll;
+}
+
+.table {
+  border-collapse: separate !important;
+}
+
+.table th {
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.table th:first-child,
+.table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.table td {
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+}
